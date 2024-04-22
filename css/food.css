@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Courier";
+  background-color: #769e80;
+  color: #dfd9d9;
+}
+#foodquestion {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.food-item {
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+  color: #cfc7c7;
+}
+.food-item img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid #d6d1d1;
+  object-fit: cover;
+  padding: 10px;
+}
+.food-item label {
+  display: block;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: "courier";
+  margin-bottom: 20px;
+  background-color: #ffe3e1;
+  color: #e67373;
+  border-radius: 12px;
+  border: 2px solid #ffe3e1;
+}
